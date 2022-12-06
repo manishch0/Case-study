@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.profilePhoto {
+  border-radius: 100%;
+  object-fit: contain;
+  border: 0.1px solid #666;
+}
+.accordionBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+}
+.accordionContainer {
+  border-radius: 8px;
+  border: 1px solid #333;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 24px;
+}
+
+.accordionHeader {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.accordionHeader h1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.detailsBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+  gap: 18px;
+}
+
+.personData {
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+.personData label {
+  color: #666;
+  line-height: 18px;
+  letter-spacing: 0.3;
+}
+.descriptionBox {
+  margin-top: 12px;
+  padding: 0 24px;
+  margin-bottom: 12px;
+}
+.descriptionBox label {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.descriptionBox span {
+  line-height: 24px;
+}
+.personData span {
+  margin-top: 8px;
+}
+
+.EditSvgr {
+  width: 44px;
+  padding: 8px;
+}
+.editButton {
+  display: flex;
+  gap: 12px;
+  justify-content: end;
+  align-items: center;
+  cursor: pointer;
+}
+.editButton button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}

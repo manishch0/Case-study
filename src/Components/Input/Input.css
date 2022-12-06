@@ -1,0 +1,54 @@
+input,
+select {
+  background: #fff;
+  border: 1px solid #666;
+  border-radius: 8px;
+  color: #333;
+  height: 42px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 8px 0 20px;
+  padding: 8px;
+  width: 100%;
+}
+input::placeholder {
+  color: #999;
+}
+input {
+  cursor: text;
+}
+select:disabled,
+input:disabled {
+  cursor: default;
+  background-color: #f5f2f2;
+}
+.input-focus {
+  color: #333;
+}
+select:focus,
+select:focus-visible,
+input:focus,
+input:focus-visible {
+  outline: none;
+  border: 1.5px solid #333;
+}
+select,
+option {
+  text-transform: capitalize;
+}
+select option {
+  background: #fff;
+  color: #333;
+}
+.inputArea {
+ margin: auto;
+  max-width: 600px;
+  margin-top: 30px;
+}
+
+.inputArea label {
+  font-weight: 700;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 24px;
+}
